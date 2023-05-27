@@ -1,0 +1,45 @@
+#sectOne {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: black;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
+    
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-bottom: 21rem;
+}
+
+
+#introMsg {
+    text-align: start;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 46px;
+    line-height: 55px;
+    font-weight: 100;
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+
+    position: absolute;
+    z-index:100;
+    
+    
+}
+
+ @media screen and (min-width: 576px) {
+    #introMsg{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #introMsg{
+        max-width: 900px;
+    }
+}

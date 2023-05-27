@@ -1,0 +1,102 @@
+#main-Section2{
+    opacity: 0;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: rgb(255, 255, 255);
+    width: 866px;
+}
+#SqueakLeft {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: end;
+    position: relative;
+    margin: 3rem 0 0 -20rem;
+}
+#SqueakingImg1{
+    width: 550px;
+    position: absolute;
+    top: 0px;
+}
+#SqueakingInfo{
+    /* opacity: 0; */
+    z-index: 1;
+    align-self: end;
+    max-width: 400px;
+    top: 70vh;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    margin: -4rem -17rem 0 0;
+}
+
+#SqueakingInfo .css-qioh90 {
+    font-family: karnak, karnak-cond-normal-700, nyt-karnak-cond, nyt-karnak, serif;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+#SqueakingInfo .css-1xm9qaa {
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    font-style: italic;
+    margin: 0px;
+}
+.css-8w0z1x {
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 20px;
+}
+
+#SquakRight {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: start;
+    align-items: flex-end;
+    position: relative;
+}
+#SqueakingImg2{ 
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    margin: 0 -33rem 0 0;
+}
+
+.opacityIn{
+    animation-duration: 2s;
+    animation-name: text-opacity;
+    animation-fill-mode: forwards;
+}
+.opacityOut {
+    animation-duration: 2s;
+    animation-name: text-opacity-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-opacity {
+    50%   { opacity: 0.6; }
+    100%  { opacity: 1; }
+}
+@keyframes text-opacity-out {
+    /* 0% {opacity: 1;} */
+    50%   { opacity: 0.4; }
+    100%  { opacity: 0; }
+}
+
+#test-div-section2 {
+    height: 100vh;
+    position:absolute;
+    width: 2rem;
+    right: 20rem;
+}

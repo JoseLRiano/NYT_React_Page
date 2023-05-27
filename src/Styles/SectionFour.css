@@ -1,0 +1,112 @@
+#HorizSec4{
+    position: relative;
+    z-index: 2;
+    left: 40rem;
+}
+
+#HorizSec4 .HorizSecFour {
+    width: 866px;
+    position: relative;
+    height: 100vh;
+}
+#HorizSec5Content {
+   
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    color: rgb(255, 255, 255);
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+}
+#HorizSec5Content .css-gtw0nl {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+#HorizSec5Content .css-1o5usgc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#HorizSec5Content .css-6s0y3v {
+    position: absolute;
+    top: 5vh;
+    display: flex;
+    z-index: 1;
+    right: -25vw;
+}
+
+#HorizSec5Content .css-1xiiuye {
+    height: 180px;
+    background-blend-mode:lighten;
+      filter: saturate(2) grayscale(0.5) brightness(1.5);
+}
+
+#HorizSec5Content .css-1txb5n8 {
+    width: 532px;
+    margin-left: 40px;
+    max-width: 532px;
+    align-self: start;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    text-align: start;
+}
+
+#HorizSec5Content .css-1lnnpj8 {
+    align-self: center;
+    margin-top: 45vh;
+    display: flex;
+}
+
+#HorizSec5Content .css-c0lj11 {
+    width: 520px;
+}
+.css-qioh90 {
+    font-family: karnak, karnak-cond-normal-700, nyt-karnak-cond, nyt-karnak, serif;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+.css-1xm9qaa {
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    font-style: italic;
+    margin: 0px;
+}
+.css-8w0z1x {
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 20px;
+}
+.opacityIn{
+    animation-duration: 3s;
+    animation-name: text-opacity;
+    animation-fill-mode: forwards;
+}
+.opacityOut {
+    animation-duration: 2s;
+    animation-name: text-opacity-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes text-opacity {
+    50%   { opacity: 0.2; }
+    100%  { opacity: 1; }
+}
+@keyframes text-opacity-out {
+    0% {opacity: 1;}
+    50%   { opacity: 0.3; }
+    100%  { opacity: 0; }
+}

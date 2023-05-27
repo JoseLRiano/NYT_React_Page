@@ -1,0 +1,88 @@
+
+.css-f3l07n {
+    opacity: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+    position: relative;
+    left: 75%;
+}
+@media screen and (min-width: 768px) {
+    .css-f3l07n {
+        width: 722px;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .css-f3l07n {
+        width: 866px;
+    }
+
+}
+.css-1arp4xr {
+    background-image: url(https://mwcm.nyt.com/dam/LP/brand/life/images/12_NFA_LP_Video_Street.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .css-1arp4xr {
+        height: 577px;
+        width: 658px;
+        margin-left: -20vw;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .css-1arp4xr {
+        height: 701px;
+        width: 799px;
+        margin-left: -22vw;
+    }
+
+}
+.css-1su5h8z {
+    width: 320px;
+    align-self: center;
+    max-width: 320px;
+    position: absolute;
+    top: 70vh;
+    right: 25vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: start;
+}
+.css-qioh90 {
+    font-family: karnak, karnak-cond-normal-700, nyt-karnak-cond, nyt-karnak, serif;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+.css-1xm9qaa {
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    font-style: italic;
+    margin: 0px;
+}
+.css-8w0z1x {
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 20px;
+}

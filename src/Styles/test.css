@@ -1,0 +1,56 @@
+.App {
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+    text-align: center;
+    background: #000;
+  }
+  
+  body {
+    font-size: Arial;
+    padding: 0;
+    margin: 0;
+  }
+  .box {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 46px;
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+  }
+  
+  .slider {
+    background: #000;
+    width: 100%;
+    min-height: 100vh;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .item-wrap {
+    display: flex;
+    width: 100%;
+  }
+  
+  .item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 46px;
+    font-weight: 100;
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+  }
+
+  .bg-violet {
+    height: 90vh
+  }
+  

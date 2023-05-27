@@ -1,0 +1,105 @@
+#sec5{
+    z-index: 1;
+    width: 866px;
+    height: 100vh;
+}
+.css-7e4pe6 {
+    opacity: 0;
+    position: relative;
+    left: 115%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    color: rgb(255, 255, 255);
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+}
+.css-1o5usgc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.css-1yhpxj0 {
+    margin-left: -20vw;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}
+@media screen and (min-width: 1024px){
+    .css-xs6s3z {
+        height: 480px;
+        width: auto;
+        margin-top: -15vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .css-xs6s3z {
+        height: 460px;
+        width: auto;
+        margin-top: -10vh;
+    }
+
+}
+.css-yjfjnv {
+    width: 360px;
+    align-self: center;
+    max-width: 532px;
+    position: absolute;
+    top: 70vh;
+    margin-right: -80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: start;
+}
+.css-qioh90 {
+    font-family: karnak, karnak-cond-normal-700, nyt-karnak-cond, nyt-karnak, serif;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin: 0px;
+}
+.css-1xm9qaa {
+    font-family: nyt-cheltenham, NYTCheltenham, cheltenham, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    font-style: italic;
+    margin: 0px;
+}
+.css-8w0z1x {
+    font-family: nyt-franklin, NYTFranklin, franklin, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 20px;
+}
+
+.opacityIn{
+    animation-duration: 2s;
+    animation-name: text-opacity;
+    animation-fill-mode: forwards;
+}
+.opacityOut {
+    animation-duration: 2s;
+    animation-name: text-opacity-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes text-opacity {
+    50%   { opacity: 0.6; }
+    100%  { opacity: 1; }
+}
+@keyframes text-opacity-out {
+    0% {opacity: 1;}
+    50%   { opacity: 0.3; }
+    100%  { opacity: 0; }
+}
